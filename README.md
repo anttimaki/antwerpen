@@ -18,22 +18,26 @@ When the files are in place, the theme can be selected normally via VS Code
 
 ### Python
 
-![Python syntax highlighting (courtesy of Django project)](https://i.imgur.com/BvuOwCQ.png)
+![Python syntax highlighting (courtesy of Django project)](https://i.imgur.com/BvuOwCQ.png)  
+
 *Python syntax highlighting (courtesy of Django project)*
 
 ### JSX
 
-![JSX syntax highlighting (courtesy of Mattermost project)](https://i.imgur.com/Idvlbxr.png)
+![JSX syntax highlighting (courtesy of Mattermost project)](https://i.imgur.com/Idvlbxr.png)  
+
 *JSX syntax highlighting (courtesy of Mattermost project)*
 
 ### HTML/Django template
 
-![HTML/Django template (courtesy of Django project)](https://i.imgur.com/uN9RAHW.png)
+![HTML/Django template (courtesy of Django project)](https://i.imgur.com/uN9RAHW.png)  
+
 *HTML/Django template (courtesy of Django project)*
 
 ### CSS
 
-![CSS (courtesy of VS Code project by Microsoft)](https://i.imgur.com/yY5b95w.png)
+![CSS (courtesy of VS Code project by Microsoft)](https://i.imgur.com/yY5b95w.png)  
+
 *CSS (courtesy of VS Code project by Microsoft)*
 
 ## Known issues
