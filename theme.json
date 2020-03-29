@@ -1,0 +1,225 @@
+{
+	"name": "PastedTheme",
+	"colors": {
+		"editor.background": "#2e2e2e",
+		"editor.foreground": "#dae3da",
+		"editorWhitespace.foreground": "#f8f8f811",
+		"editor.lineHighlightBackground": "#454545",
+		"editor.selectionBackground": "#454545",
+		"editorError.foreground": "#fa4728",
+		"editorError.border": "#fa4728",
+		"editorWarning.foreground": "#fad90c"
+	},
+	"tokenColors": [
+		{
+			"name": "[Common][Grey] Comments",
+			"scope": [
+				"comment",
+				"string.quoted.docstring.multi.python"
+			],
+			"settings": {
+				"foreground": "#adadad",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "[Common][Green] Strings & numbers",
+			"scope": [
+				"string",
+				"constant.numeric"
+			],
+			"settings": {"foreground": "#b6c36f"}
+		},
+		{
+			"name": "[Common][Orange] Built-ins & keywords",
+			"scope": [
+				"constant.language",
+				"keyword",
+				"support.class.builtin"
+			],
+			"settings": {"foreground": "#e69e55"}
+		},
+		{
+			"name": "[Common][Blue] Punctuation",
+			"scope": [
+				"constant.character.format",
+				"keyword.operator",
+				"meta.brace",
+				"punctuation.definition.arguments",
+				"punctuation.definition.block",
+				"punctuation.definition.parameters",
+				"punctuation.definition.template-expression",
+				"punctuation.parenthesis",
+				"punctuation.section.function.begin",
+				"punctuation.section.embedded",
+				"punctuation.separator.colon",
+				"punctuation.separator.comma",
+				"punctuation.separator.parameter",
+				"punctuation.terminator"
+			],
+			"settings": {"foreground": "#9fb1cb"}
+		},
+		{
+			"name": "[Python][Orange] Built-ins & keywords",
+			"scope": [
+				"keyword.operator.logical.python",
+				"support.function.builtin.python",
+				"support.function.magic.python",
+				"support.type.exception.python",
+				"support.type.python",
+				"variable.parameter.function.language.special.cls.python",
+				"variable.parameter.function.language.special.self.python"
+			],
+			"settings": {"foreground": "#e69e55"}
+		},
+		{
+			"name": "[Python][Orange] Special variables",
+			"scope": [
+				"variable.language.special.cls.python",
+				"variable.language.special.self.python",
+				"variable.parameter.function.language.special.cls.python",
+				"variable.parameter.function.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#e69e55",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "[Python][Blue] Misc stuff",
+			"scope": [
+				"constant.character.format.placeholder.other.python",
+				"meta.fstring.python",
+				"meta.function.decorator.python",
+				"storage.type.class.python",
+				"storage.type.function.python",
+				"storage.type.string.python"
+			],
+			"settings": {"foreground": "#9fb1cb"}
+		},
+		{
+			"name": "[JS(X)][White] Template string expressions",
+			"scope": "meta.template.expression.js",
+			"settings": {"foreground": "#dae3da"}
+		},
+		{
+			"name": "[JS(X)][Orange] Element names, arrow functions",
+			"scope": [
+				"entity.name.tag.js.jsx",
+				"storage.type.function.arrow.js.jsx"
+			],
+			"settings": {"foreground": "#e69e55"}
+		},
+		{
+			"name": "[JS(X)][Blue] Function, const etc.",
+			"scope": [
+				"storage.type.function.js",
+				"storage.type.js"
+			],
+			"settings": {"foreground": "#9fb1cb"}
+		},
+		{
+			"name": "[HTML/templates][White] Override overzealous coloring",
+			"scope": [
+				"storage.type.templatetag.django",
+				"string.unquoted.tag-string.django"
+			],
+			"settings": {"foreground": "#dae3da"}
+		},
+		{
+			"name": "[HTML/templates][Orange] Element names, template tags",
+			"scope": [
+				"constant.character.entity.named",
+				"constant.other.filter.django",
+				"constant.other.tag.name.django",
+				"entity.name.tag.block.any.html",
+				"entity.name.tag.html",
+				"entity.name.tag.inline.any.html",
+				"entity.name.tag.script.html",
+				"entity.name.tag.structure.any.html",
+				"keyword.control.tag-name.django",
+				"meta.tag.sgml.doctype.html"
+			],
+			"settings": {"foreground": "#e69e55"}
+		},
+		{
+			"name": "[HTML/templates][Blue] Punctuation",
+			"scope": [
+				"entity.tag.filter-pipe.django",
+				"entity.tag.tagbraces.django",
+				"keyword.operator.filter-argument.django"
+			],
+			"settings": {"foreground": "#9fb1cb"}
+		},
+		{
+			"name": "[CSS/LESS][White] Properties",
+			"scope": [
+				"meta.property-list.css",
+				"support.type.property-name.css"
+			],
+			"settings": {"foreground": "#dae3da"}
+		},
+		{
+			"name": "[CSS/LESS][Green] Values",
+			"scope": [
+				"meta.property-value.css",
+				"keyword.other.unit",
+				"support.constant.property-value.css"
+			],
+			"settings": {"foreground": "#b6c36f"}
+		},
+		{
+			"name": "[CSS/LESS][Orange] Selectors",
+			"scope": [
+				"entity.name.tag.css",
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.id.css",
+				"meta.selector.css"
+			],
+			"settings": {"foreground": "#e69e55"}
+		},
+		{
+			"name": "[CSS/LESS][Blue] Variables and punctuation",
+			"scope": [
+				"keyword.control.logical.operator.less",
+				"keyword.operator.less",
+				"punctuation.definition.begin.entity.css",
+				"punctuation.definition.entity.css",
+				"punctuation.definition.end.entity.css",
+				"punctuation.section.property-list.begin.bracket",
+				"punctuation.section.property-list.end.bracket",
+				"punctuation.separator.key-value.css",
+				"punctuation.separator.list.comma.css",
+				"punctuation.terminator.rule.css",
+				"support.constant.media-type.media.css",
+				"variable.other.less"
+			],
+			"settings": {"foreground": "#9fb1cb"}
+		},
+		{
+			"name": "[Markdown][Orange] Headings",
+			"scope": "markup.heading.markdown",
+			"settings": {"foreground": "#e69e55"}
+		},
+		{
+			"name": "[Markdown][Blue] Punctuation",
+			"scope": [
+				"punctuation.definition.list",
+				"punctuation.definition.metadata.markdown",
+				"punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown"
+			],
+			"settings": {"foreground": "#9fb1cb"}
+		},
+		{
+			"name": "[Markdown] Italic",
+			"scope": "markup.italic.markdown",
+			"settings": {"fontStyle": "italic"}
+		},
+		{
+			"name": "[Markdown] Bold",
+			"scope": "markup.bold.markdown",
+			"settings": {"fontStyle": "bold"}
+		}
+	]
+}

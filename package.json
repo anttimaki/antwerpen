@@ -1,0 +1,21 @@
+{
+  "name": "antwerpen",
+  "displayName": "Antwerpen",
+  "description": "Color theme for VS Code",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Antwerpen",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
+}
