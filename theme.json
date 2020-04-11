@@ -98,23 +98,33 @@
       "settings": {"foreground": "#9fb1cb"}
     },
     {
-      "name": "[JS(X)][White] Template string expressions",
-      "scope": "meta.template.expression.js",
+      "name": "[JS(X)][White] Restore whites overwritten by other syles",
+      "scope": [
+        "meta.template.expression.js",
+        "meta.template.expression.tsx",
+        "variable.parameter.js.jsx",
+        "variable.parameter.tsx"
+      ],
       "settings": {"foreground": "#dae3da"}
     },
     {
       "name": "[JS(X)][Orange] Element names, arrow functions",
       "scope": [
         "entity.name.tag.js.jsx",
-        "storage.type.function.arrow.js.jsx"
+        "entity.name.tag.tsx",
+        "storage.type.function.arrow.js.jsx",
+        "storage.type.function.arrow.tsx"
       ],
       "settings": {"foreground": "#e69e55"}
     },
     {
       "name": "[JS(X)][Blue] Function, const etc.",
       "scope": [
+        "meta.parameter.object-binding-pattern.js.jsx",
+        "meta.parameter.object-binding-pattern.tsx",
         "storage.type.function.js",
-        "storage.type.js"
+        "storage.type.js",
+        "storage.type.tsx"
       ],
       "settings": {"foreground": "#9fb1cb"}
     },
