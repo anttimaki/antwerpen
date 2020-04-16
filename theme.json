@@ -114,6 +114,10 @@
         "entity.name.tag.tsx",
         "storage.modifier.async.js.jsx",
         "storage.modifier.async.tsx",
+        "storage.modifier.js.jsx",
+        "storage.modifier.tsx",
+        "storage.type.class.js.jsx",
+        "storage.type.class.tsx",
         "storage.type.function.arrow.js.jsx",
         "storage.type.function.arrow.tsx"
       ],
