@@ -130,7 +130,9 @@
         "meta.parameter.object-binding-pattern.tsx",
         "storage.type.function.js",
         "storage.type.js",
-        "storage.type.tsx"
+        "storage.type.tsx",
+        "support.class.promise.js.jsx",
+        "support.class.promise.tsx"
       ],
       "settings": {"foreground": "#9fb1cb"}
     },
