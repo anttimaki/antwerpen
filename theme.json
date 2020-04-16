@@ -98,23 +98,39 @@
       "settings": {"foreground": "#9fb1cb"}
     },
     {
-      "name": "[JS(X)][White] Template string expressions",
-      "scope": "meta.template.expression.js",
+      "name": "[JS(X)][White] Restore whites overwritten by other syles",
+      "scope": [
+        "meta.template.expression.js",
+        "meta.template.expression.tsx",
+        "variable.parameter.js.jsx",
+        "variable.parameter.tsx"
+      ],
       "settings": {"foreground": "#dae3da"}
     },
     {
       "name": "[JS(X)][Orange] Element names, arrow functions",
       "scope": [
         "entity.name.tag.js.jsx",
-        "storage.type.function.arrow.js.jsx"
+        "entity.name.tag.tsx",
+        "storage.modifier.async.js.jsx",
+        "storage.modifier.async.tsx",
+        "storage.modifier.js.jsx",
+        "storage.modifier.tsx",
+        "storage.type.class.js.jsx",
+        "storage.type.class.tsx",
+        "storage.type.function.arrow.js.jsx",
+        "storage.type.function.arrow.tsx"
       ],
       "settings": {"foreground": "#e69e55"}
     },
     {
       "name": "[JS(X)][Blue] Function, const etc.",
       "scope": [
+        "meta.parameter.object-binding-pattern.js.jsx",
+        "meta.parameter.object-binding-pattern.tsx",
         "storage.type.function.js",
-        "storage.type.js"
+        "storage.type.js",
+        "storage.type.tsx"
       ],
       "settings": {"foreground": "#9fb1cb"}
     },
@@ -197,6 +213,14 @@
       "settings": {"foreground": "#9fb1cb"}
     },
     {
+      "name": "[Markdown][Grey] Code samples",
+      "scope": [
+        "markup.fenced_code.block.markdown",
+        "markup.inline.raw.string.markdown"
+      ],
+      "settings": {"foreground": "#adadad"}
+    },
+    {
       "name": "[Markdown][Orange] Headings",
       "scope": "markup.heading.markdown",
       "settings": {"foreground": "#e69e55"}
@@ -205,7 +229,9 @@
       "name": "[Markdown][Blue] Punctuation",
       "scope": [
         "punctuation.definition.list",
+        "punctuation.definition.markdown",
         "punctuation.definition.metadata.markdown",
+        "punctuation.definition.raw.markdown",
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown"
       ],
