@@ -130,6 +130,7 @@
         "meta.parameter.object-binding-pattern.tsx",
         "storage.type.function.js",
         "storage.type.function.tsx",
+        "storage.type.interface.tsx",
         "storage.type.js",
         "storage.type.tsx",
         "support.class.promise.js.jsx",
