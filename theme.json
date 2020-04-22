@@ -128,6 +128,8 @@
       "scope": [
         "meta.parameter.object-binding-pattern.js.jsx",
         "meta.parameter.object-binding-pattern.tsx",
+        "punctuation.definition.binding-pattern.array.js.jsx",
+        "punctuation.definition.binding-pattern.array.tsx",
         "storage.type.function.js",
         "storage.type.function.tsx",
         "storage.type.interface.tsx",
