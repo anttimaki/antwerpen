@@ -133,6 +133,7 @@
         "punctuation.definition.binding-pattern.array.tsx",
         "storage.type.function.js",
         "storage.type.function.tsx",
+        "storage.type.interface.ts",
         "storage.type.interface.tsx",
         "storage.type.js",
         "storage.type.tsx",
