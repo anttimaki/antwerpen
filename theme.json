@@ -111,6 +111,7 @@
       "name": "[JS(X)][Orange] Element names, arrow functions",
       "scope": [
         "entity.name.tag.js.jsx",
+        "entity.name.tag.ts.tsx",
         "entity.name.tag.tsx",
         "storage.modifier.async.js.jsx",
         "storage.modifier.async.tsx",
