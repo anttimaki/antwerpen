@@ -111,6 +111,7 @@
       "name": "[JS(X)][Orange] Element names, arrow functions",
       "scope": [
         "entity.name.tag.js.jsx",
+        "entity.name.tag.ts.tsx",
         "entity.name.tag.tsx",
         "storage.modifier.async.js.jsx",
         "storage.modifier.async.tsx",
@@ -128,9 +129,17 @@
       "scope": [
         "meta.parameter.object-binding-pattern.js.jsx",
         "meta.parameter.object-binding-pattern.tsx",
+        "punctuation.definition.typeparameters",
+        "punctuation.definition.binding-pattern.array.js.jsx",
+        "punctuation.definition.binding-pattern.array.tsx",
         "storage.type.function.js",
+        "storage.type.function.tsx",
+        "storage.type.interface.ts",
+        "storage.type.interface.tsx",
         "storage.type.js",
-        "storage.type.tsx"
+        "storage.type.tsx",
+        "support.class.promise.js.jsx",
+        "support.class.promise.tsx"
       ],
       "settings": {"foreground": "#9fb1cb"}
     },
