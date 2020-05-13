@@ -136,6 +136,7 @@
         "punctuation.definition.typeparameters",
         "punctuation.definition.binding-pattern.array.js.jsx",
         "punctuation.definition.binding-pattern.array.tsx",
+        "punctuation.separator.key-value.ts",
         "storage.type.enum.ts",
         "storage.type.enum.tsx",
         "storage.type.function.js",
