@@ -12,10 +12,12 @@
   },
   "tokenColors": [
     {
-      "name": "[Common][Grey] Comments",
+      "name": "[Common][Grey] Comments and TS types",
       "scope": [
         "comment",
-        "string.quoted.docstring.multi.python"
+        "entity.name.type.ts",
+        "string.quoted.docstring.multi.python",
+        "support.type.primitive.ts"
       ],
       "settings": {
         "foreground": "#adadad",
