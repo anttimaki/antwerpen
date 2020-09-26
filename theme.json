@@ -98,7 +98,7 @@
       "settings": {"foreground": "#9fb1cb"}
     },
     {
-      "name": "[JS(X)][White] Restore whites overwritten by other syles",
+      "name": "[JS(X)][White] Restore whites overwritten by other styles",
       "scope": [
         "meta.template.expression.js",
         "meta.template.expression.tsx",
