@@ -158,6 +158,8 @@
         "storage.type.js",
         "storage.type.ts",
         "storage.type.tsx",
+        "storage.type.type.ts",
+        "storage.type.type.tsx",
         "support.class.promise.js.jsx",
         "support.class.promise.tsx"
       ],
