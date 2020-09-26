@@ -100,9 +100,18 @@
     {
       "name": "[JS(X)][White] Restore whites overwritten by other styles",
       "scope": [
+        "meta.object.member.js",
+        "meta.object.member.ts",
         "meta.template.expression.js",
         "meta.template.expression.tsx",
+        "variable.other.object.ts",
+        "variable.other.property.ts",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.jsx",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.tsx",
         "variable.parameter.js.jsx",
+        "variable.parameter.ts",
         "variable.parameter.tsx"
       ],
       "settings": {"foreground": "#dae3da"}
@@ -131,6 +140,8 @@
     {
       "name": "[JS(X)][Blue] Function, const etc.",
       "scope": [
+        "meta.decorator.js",
+        "meta.decorator.ts",
         "meta.parameter.object-binding-pattern.js.jsx",
         "meta.parameter.object-binding-pattern.tsx",
         "punctuation.definition.typeparameters",
