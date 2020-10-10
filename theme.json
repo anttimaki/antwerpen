@@ -12,10 +12,12 @@
   },
   "tokenColors": [
     {
-      "name": "[Common][Grey] Comments",
+      "name": "[Common][Grey] Comments and TS types",
       "scope": [
         "comment",
-        "string.quoted.docstring.multi.python"
+        "entity.name.type.ts",
+        "string.quoted.docstring.multi.python",
+        "support.type.primitive.ts"
       ],
       "settings": {
         "foreground": "#adadad",
@@ -98,11 +100,20 @@
       "settings": {"foreground": "#9fb1cb"}
     },
     {
-      "name": "[JS(X)][White] Restore whites overwritten by other syles",
+      "name": "[JS(X)][White] Restore whites overwritten by other styles",
       "scope": [
+        "meta.object.member.js",
+        "meta.object.member.ts",
         "meta.template.expression.js",
         "meta.template.expression.tsx",
+        "variable.other.object.ts",
+        "variable.other.property.ts",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.jsx",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.tsx",
         "variable.parameter.js.jsx",
+        "variable.parameter.ts",
         "variable.parameter.tsx"
       ],
       "settings": {"foreground": "#dae3da"}
@@ -114,12 +125,16 @@
         "entity.name.tag.ts.tsx",
         "entity.name.tag.tsx",
         "storage.modifier.async.js.jsx",
+        "storage.modifier.async.ts",
         "storage.modifier.async.tsx",
         "storage.modifier.js.jsx",
+        "storage.modifier.ts",
         "storage.modifier.tsx",
         "storage.type.class.js.jsx",
+        "storage.type.class.ts",
         "storage.type.class.tsx",
         "storage.type.function.arrow.js.jsx",
+        "storage.type.function.arrow.ts",
         "storage.type.function.arrow.tsx"
       ],
       "settings": {"foreground": "#e69e55"}
@@ -127,17 +142,26 @@
     {
       "name": "[JS(X)][Blue] Function, const etc.",
       "scope": [
+        "meta.decorator.js",
+        "meta.decorator.ts",
         "meta.parameter.object-binding-pattern.js.jsx",
         "meta.parameter.object-binding-pattern.tsx",
         "punctuation.definition.typeparameters",
         "punctuation.definition.binding-pattern.array.js.jsx",
         "punctuation.definition.binding-pattern.array.tsx",
+        "punctuation.separator.key-value.ts",
+        "storage.type.enum.ts",
+        "storage.type.enum.tsx",
         "storage.type.function.js",
+        "storage.type.function.ts",
         "storage.type.function.tsx",
         "storage.type.interface.ts",
         "storage.type.interface.tsx",
         "storage.type.js",
+        "storage.type.ts",
         "storage.type.tsx",
+        "storage.type.type.ts",
+        "storage.type.type.tsx",
         "support.class.promise.js.jsx",
         "support.class.promise.tsx"
       ],
