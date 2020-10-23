@@ -16,8 +16,10 @@
       "scope": [
         "comment",
         "entity.name.type.ts",
+        "entity.name.type.tsx",
         "string.quoted.docstring.multi.python",
-        "support.type.primitive.ts"
+        "support.type.primitive.ts",
+        "support.type.primitive.tsx"
       ],
       "settings": {
         "foreground": "#adadad",
