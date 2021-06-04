@@ -16,8 +16,10 @@
       "scope": [
         "comment",
         "entity.name.type.ts",
+        "entity.name.type.tsx",
         "string.quoted.docstring.multi.python",
-        "support.type.primitive.ts"
+        "support.type.primitive.ts",
+        "support.type.primitive.tsx"
       ],
       "settings": {
         "foreground": "#adadad",
@@ -149,6 +151,10 @@
         "punctuation.definition.typeparameters",
         "punctuation.definition.binding-pattern.array.js.jsx",
         "punctuation.definition.binding-pattern.array.tsx",
+        "punctuation.definition.binding-pattern.object.js",
+        "punctuation.definition.binding-pattern.object.jsx",
+        "punctuation.definition.binding-pattern.object.ts",
+        "punctuation.definition.binding-pattern.object.tsx",
         "punctuation.separator.key-value.ts",
         "storage.type.enum.ts",
         "storage.type.enum.tsx",
